@@ -1,0 +1,120 @@
+body{
+    font-family:"Space Mono", monospace;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #312e81);
+    margin: 0;
+    color: #f9fafb;
+    line-height: 1.6;
+
+}
+h1{
+    font-size:90px;
+    line-height:1.1;
+    font-weight:400;
+    margin-bottom: 20px;
+    color: #f9fafb;
+
+}
+h2{
+    font-size:40px;
+    color: #cbd5e1;
+    margin-bottom: 40px;
+
+}
+h3 {
+  font-size: 28px;
+  margin: 24px 0 12px;
+  color: #f9fafb;
+}
+p{
+    color: #cbd5e1;
+    margin-bottom: 16px;
+}
+div{
+    width: 70%;
+    margin: 120px auto 60px;
+    #about, #why, #register, #faq {
+        margin: 40px 0;
+    }
+}
+
+
+#why ul { 
+    margin: 0 0 12px 18px; 
+}
+#faq details { 
+    margin: 8px 0; 
+}
+    
+#faq summary { 
+    font-weight: 700; 
+    cursor: pointer;
+
+}
+
+#register label { 
+    display: inline-block; 
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #f9fafb;
+}
+#register input[type="email"] {
+  width: 100%;
+  max-width:400px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  outline: none;
+  margin: 8px 0 12px 0;
+}
+#register input[type="email"]::placeholder {
+  color: #94a3b8;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+    background: linear-gradient(90deg, #1d4ed8, #1e40af);
+}
+
+span {
+  text-shadow: 0 -4px #6366f1, 0 4px #ec4899;
+}
+
+footer {
+  background: #0a0f1e;
+  color: #9ca3af;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;   
+}
+
+
+
+@media only screen and (max-width: 1700px) {
+  div {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  div {
+    width: 90%;
+    margin: 100px auto;
+  }
+}
+
